@@ -207,12 +207,12 @@
      `(diredp-write-priv ((,class (:foreground ,orange1 :background nil))))
 
      ;; Ediff
-     `(ediff-fine-diff-A ((,class (:background ,orange2))))
-     `(ediff-fine-diff-B ((,class (:background ,green))))
+     `(ediff-fine-diff-A ((,class (:background ,red2 :foreground ,accent))))
+     `(ediff-fine-diff-B ((,class (:background ,green :foreground ,accent))))
      `(ediff-even-diff-A ((,class (:background ,contrast-bg :foreground ,mono2))))
-     `(ediff-odd-diff-A ((,class (:background  ,low-contrast-bg :foreground ,mono1))))
-     `(ediff-even-diff-B ((,class (:background ,contrast-bg :foreground ,mono4))))
-     `(ediff-odd-diff-B ((,class (:background  ,low-contrast-bg :foreground ,mono1))))
+     `(ediff-odd-diff-A ((,class (:background  ,low-contrast-bg :foreground ,mono2))))
+     `(ediff-even-diff-B ((,class (:background ,contrast-bg :foreground ,mono2))))
+     `(ediff-odd-diff-B ((,class (:background  ,low-contrast-bg :foreground ,mono2))))
 
      ;; ElDoc
      `(eldoc-highlight-function-argument ((,class (:foreground ,green :weight bold))))
